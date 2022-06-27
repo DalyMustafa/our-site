@@ -1,0 +1,88 @@
+* {
+    padding:0;
+    margin: 0;
+}
+body {
+    background-image:url("../Background/Backgrond.png")
+}
+header {
+    background-color: rgb(61, 74, 130);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.social {
+    width: 44px;
+    height: 42px;
+    margin-top: 95px;
+    margin-left: 10px;
+}
+.social-media {
+    display: flex;
+    justify-content: space-around; 
+    margin-left: 200px;
+}
+.logo {
+    margin-right: 50px;
+    width: 150px;
+}
+.logo-h1 {
+    display: flex;
+    justify-content: right;  
+    align-items: center;
+    margin-right: 150px;
+}
+h1 {
+   font-family:'Aref Ruqaa', serif;
+   color: aliceblue;
+   font-size: 60px;
+   margin-right: 20px;
+}
+.navigation {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+    /* margin-top: 10px; */
+    background-color: rgb(108, 158, 209);
+    padding: 8px;
+    
+}
+ul {
+    list-style-type: none;
+}
+.navigation li {
+    font-size: 25px;
+    font-family: 'Aref Ruqaa', serif;
+    color: aliceblue;
+}
+.slider {
+    width: 100%;
+    height: 500px;
+    border-bottom: 5px solid blue;
+   
+}
+.slider img {
+   width: 100%; 
+    
+}
+.news h2 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 45px;
+    font-family:'Aref Ruqaa', serif;
+}
+.news-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.box1 {
+    border: 5px black solid;
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.box1 img {
+    width: 400px;
+    height: 250px;
+}
