@@ -2,6 +2,9 @@
     padding:0;
     margin: 0;
 }
+html {
+    direction: rtl;
+}
 body {
     background-image:url("../Background/Backgrond.png")
 }
@@ -27,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     grid-area: header;
+    flex-direction:row-reverse;
 
 }
 .social {
@@ -62,7 +66,6 @@ nav {
 .navigation {
     display: flex;
     justify-content:space-evenly;
-    flex-direction: row-reverse;
    /* margin-top: 10px;  */
     background-color: rgb(108, 158, 209);
     padding: 8px;  
@@ -131,4 +134,50 @@ hr.line {
 }
 .box2 img {
     border-radius: 20px;
+}
+
+.dawrat {
+    grid-area: magazine;
+}
+.dawrat h2 {
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+font-family:'Aref Ruqaa', serif;
+font-size: 45px;
+}
+.dawrat-box {
+display: flex;
+justify-content: space-around;
+
+}
+hr.line {
+    border: 3px solid blue;
+    margin-bottom: 10px;
+}
+.box3 img {
+    border-radius: 20px;
+    width: 400px;
+    height: 360px;
+}
+.box3 {
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin-bottom: 15px;
+ 
+}
+.box3 p {
+    width: 250px;
+    margin-left: 15px;
+    font-family: 'Amiri', serif;;
+    text-align: justify;
+    /* text-align-last: center ; */
+    margin-right: 10px;
+}
+.box-head {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 25px;   
 }
