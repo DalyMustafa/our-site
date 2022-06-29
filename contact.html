@@ -3,52 +3,84 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>contact form</title>
+    <link href="./assets/Css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            
+            <div class="social-media">
+            <img class="social zoom" src="./assets/icon/face.png" alt="facebook">
+            <img class="social zoom"src="./assets/icon/insta.png" alt="instagram">
+            <img class="social zoom"src="./assets/icon/tele.png" alt="telegram">
+            <img class="social zoom" src="./assets/icon/twitter.png" alt="twitter">
+            <img class="social zoom" src="./assets/icon/whatsapp.png" alt="whatsapp">
+            <img class="social zoom" src="./assets/icon/youtube.png" alt="youtube">
+        </div>
+        <div class="logo-h1">
+            <img class="logo" src="./assets/icon/logo.png" alt="logo">
+            <h1>مجلة دراسات علمية</h1>
+        </div>
+        </header>
+        <nav>
+            <ul>
+                <div class="navigation">
+                    <li><a href="./index.html"> <p> الصفحة الرئيسية</p></a></li>
+                    <li><a href="./Magazine-Issues.html"> <p> أعداد المجلة</p></a></li>
+                    <li><a href="./Articles.html"><p> المقالات</p></a></li>
+                    <li><a href="./Researchers.html"><p> الباحثون</p></a></li>
+                    <li><a href="./magazine-activities.html"><p> نشاطات المجلة</p></a></li>
+                    <li><a href="./contact.html"><p> تواصل معنا</p></a></li>
+                </div>
+            </ul>
+        </nav>
+    <div class="fcf-body">
 
-<link href="./assets/Css/contact.css" rel="stylesheet">
+        <div id="fcf-form">
+        <h3 class="fcf-h3">تواصل معنا</h3>
+        <hr class="line">
 
-<div class="fcf-body">
-
-    <div id="fcf-form">
-    <h3 class="fcf-h3">تواصل معنا</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">الاسم الثلاثي</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">الاسم الثلاثي:</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">بريدك الالكتروني</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">بريدك الالكتروني:</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">اكتب رسالتك هنا</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">اكتب رسالتك هنا:</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">أرسل الرسالة</button>
-        </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">أرسل الرسالة</button>
+            </div>
 
-        <div class="fcf-credit" id="fcf-credit">
-        شكراً لتواصلكم معنا <a href="https://www.majesticform.com" target="_blank">موقع المجلة</a>
+            <div class="fcf-credit" id="fcf-credit">
+            شكراً لتواصلكم معنا <a href="./index.html" target="_blank">موقع المجلة</a>
+            </div>
+        </form>
         </div>
-
-    </form>
     </div>
-
-</div>
+    <!-- <footer class="footer">
+        <div>جميع الحقوق محفوظة لصالح مجلة دراسات علمية &copy;</div>
+    </footer> -->
+    </div>
+    
 
 </body>
 </html>
