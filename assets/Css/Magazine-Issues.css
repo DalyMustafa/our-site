@@ -124,7 +124,8 @@ ul {
 hr.line {
     border: 2px solid rgb(61, 74, 130);
     /* margin-bottom: 10px; */
-    width: 100%;
+    width: 99%;
+    margin: auto;
 }
 
 .num-grid{
@@ -135,6 +136,7 @@ hr.line {
     justify-content: space-around;
     align-items: center;
     font-family:'Aref Ruqaa', serif;
+
     /* display: grid;
     grid-column: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -151,6 +153,7 @@ hr.line {
     height: 130px;
     border-radius: 5px;
 }
+
 /* .mag1 {
 grid-area: img1;
 }
@@ -216,6 +219,7 @@ grid-area: img1;
   justify-items: center;
   height: 50px;
   font-size: 19px;
+  font-family: 'Aref Ruqaa', serif;
 }
 .szoom {
     padding: 2px;
